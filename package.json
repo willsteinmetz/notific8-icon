@@ -4,7 +4,8 @@
   "description": "Icon module for notific8",
   "main": "dist/notific8-icon.js",
   "scripts": {
-    "test": "karma start --single-run"
+    "test": "karma start --single-run",
+    "demo": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "grunt": "^1.0.1",
     "grunt-babel": "^6.0.0",
     "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-pug": "^1.0.0",
     "grunt-contrib-uglify": "^2.0.0",
@@ -42,6 +44,7 @@
     "karma-jasmine": "^1.0.2",
     "karma-phantomjs-launcher": "^1.0.1",
     "load-grunt-config": "^0.19.2",
+    "node-static": "^0.7.8",
     "phantomjs-prebuilt": "^2.1.7",
     "time-grunt": "^1.4.0"
   }
