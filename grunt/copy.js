@@ -7,21 +7,14 @@
  */
 
 module.exports = {
-  'default': [
-    'build',
-    'karma:unit',
-    'watch'
-  ],
-  'build': [
-    'pug',
-    'sass',
-    'cssmin',
-    'babel:dist',
-    'uglify',
-    'copy:fonts'
-  ],
-  'release': [
-    'build',
-    'update_json'
-  ]
+  fonts: {
+    files: [
+      {
+        expand: true,
+        cwd: 'src/fonts',
+        src: [ '*' ],
+        dest: 'dist/fonts/'
+      }
+    ]
+  }
 };
