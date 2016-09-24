@@ -14,7 +14,7 @@ __Deprecated__ Icon module for the [notific8](https://github.com/ralivue/notific
 
 ## Demo page
 
-An interactive demo page can be found in the root directory. It can be launched by running `npm run demo` after installing the node modules required for development.
+An interactive demo page can be found in the root directory. It can be launched by running `npm start demo` after installing the node modules required for development.
 
 ## Future Development
 
