@@ -1,0 +1,16 @@
+extends ../../bower_components/notific8/src/pug/demo-js.pug
+
+block moduleJs
+  script(type='text/javascript').
+    $(function() {
+      window.notific8ModuleOptions = {};
+      $('select[name="notific8Icon"]').on('change', function(event) {
+        var $target = $(this);
+
+        if ($target.val()) {
+          window.notific8ModuleOptions.icon = $target.val();
+        } else {
+          delete window.notific8ModuleOptions.icon;
+        }
+      })
+    });
