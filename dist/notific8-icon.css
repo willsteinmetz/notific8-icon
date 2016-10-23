@@ -561,7 +561,8 @@
   float: left;
   margin-left: -1.1571428571em; }
 
-.notific8-notification.family-atomic .notific8-icon {
+.notific8-notification.family-atomic .notific8-icon,
+.notific8-notification.atomic .notific8-icon {
   box-sizing: border-box;
   color: #fff;
   font-size: 1.25em;
@@ -572,21 +573,26 @@
   top: 0;
   width: 1.7142857143em; }
 
-.right .notific8-notification.family-atomic.has-icon {
+.right .notific8-notification.family-atomic.has-icon,
+.right .notific8-notification.atomic.has-icon {
   border-left-width: 1px;
   padding-left: 2.125em; }
 
-.right .notific8-notification.family-atomic .notific8-icon {
+.right .notific8-notification.family-atomic .notific8-icon,
+.right .notific8-notification.atomic .notific8-icon {
   left: 0; }
 
-.left .notific8-notification.family-atomic.has-icon {
+.left .notific8-notification.family-atomic.has-icon,
+.left .notific8-notification.atomic.has-icon {
   border-right-width: 1px;
   padding-right: 2.125em; }
 
-.left .notific8-notification.family-atomic .notific8-icon {
+.left .notific8-notification.family-atomic .notific8-icon,
+.left .notific8-notification.atomic .notific8-icon {
   right: 0; }
 
-.notific8-notification.family-chicchat .notific8-icon {
+.notific8-notification.family-chicchat .notific8-icon,
+.notific8-notification.chicchat .notific8-icon {
   align-items: center;
   box-sizing: border-box;
   color: #fff;
@@ -599,52 +605,67 @@
   top: 0;
   width: 1.6071428571em; }
 
-.right .notific8-notification.family-chicchat.has-icon {
+.right .notific8-notification.family-chicchat.has-icon,
+.right .notific8-notification.chicchat.has-icon {
   border-left-width: 1px;
   padding-left: 4.4285714286em; }
 
-.right .notific8-notification.family-chicchat .notific8-icon {
+.right .notific8-notification.family-chicchat .notific8-icon,
+.right .notific8-notification.chicchat .notific8-icon {
   left: 0; }
 
-.left .notific8-notification.family-chicchat.has-icon {
+.left .notific8-notification.family-chicchat.has-icon,
+.left .notific8-notification.chicchat.has-icon {
   border-right-width: 1px;
   padding-right: 4.4285714286em; }
 
-.left .notific8-notification.family-chicchat .notific8-icon {
+.left .notific8-notification.family-chicchat .notific8-icon,
+.left .notific8-notification.chicchat .notific8-icon {
   right: 0; }
 
-.notific8-notification.family-materialish.has-icon .notific8-icon {
+.notific8-notification.family-materialish.has-icon .notific8-icon,
+.notific8-notification.materialish.has-icon .notific8-icon {
   margin-left: 1.7142857143em;
   margin-top: 0.2857142857em; }
 
-.notific8-notification.family-atomic.cerulean .notific8-icon {
+.notific8-notification.family-atomic.cerulean .notific8-icon,
+.notific8-notification.atomic.cerulean .notific8-icon {
   background-color: #4F99D3; }
 
-.notific8-notification.family-atomic.tomato .notific8-icon {
+.notific8-notification.family-atomic.tomato .notific8-icon,
+.notific8-notification.atomic.tomato .notific8-icon {
   background-color: #D03E41; }
 
-.notific8-notification.family-atomic.mustard .notific8-icon {
+.notific8-notification.family-atomic.mustard .notific8-icon,
+.notific8-notification.atomic.mustard .notific8-icon {
   background-color: #DDCE61; }
 
-.notific8-notification.family-atomic.pear .notific8-icon {
+.notific8-notification.family-atomic.pear .notific8-icon,
+.notific8-notification.atomic.pear .notific8-icon {
   background-color: #9ECC4E; }
 
-.notific8-notification.family-atomic.amethyst .notific8-icon {
+.notific8-notification.family-atomic.amethyst .notific8-icon,
+.notific8-notification.atomic.amethyst .notific8-icon {
   background-color: #5D2D77; }
 
-.notific8-notification.family-atomic.onyx .notific8-icon {
+.notific8-notification.family-atomic.onyx .notific8-icon,
+.notific8-notification.atomic.onyx .notific8-icon {
   background-color: #454545; }
 
-.notific8-notification.family-chicchat.cobalt .notific8-icon {
+.notific8-notification.family-chicchat.cobalt .notific8-icon,
+.notific8-notification.chicchat.cobalt .notific8-icon {
   background-color: #3171B2; }
 
-.notific8-notification.family-chicchat.ruby .notific8-icon {
+.notific8-notification.family-chicchat.ruby .notific8-icon,
+.notific8-notification.chicchat.ruby .notific8-icon {
   background-color: #a10; }
 
-.notific8-notification.family-chicchat.honey .notific8-icon {
+.notific8-notification.family-chicchat.honey .notific8-icon,
+.notific8-notification.chicchat.honey .notific8-icon {
   background-color: #f2cc00; }
 
-.notific8-notification.family-chicchat.shamrock .notific8-icon {
+.notific8-notification.family-chicchat.shamrock .notific8-icon,
+.notific8-notification.chicchat.shamrock .notific8-icon {
   background-color: #8bb92d; }
 
 /*# sourceMappingURL=notific8-icon.css.map */
