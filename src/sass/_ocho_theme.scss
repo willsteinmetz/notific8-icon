@@ -1,0 +1,53 @@
+// @author Will Steinmetz
+//
+// icon module styles for notific8 - Ocho theme
+//
+// Copyright (c)2013-2016, Will Steinmetz
+// Licensed under the BSD license.
+// http://opensource.org/licenses/BSD-3-Clause
+
+.#{$notific8-ns}-notification.family-legacy,// deprecated
+.#{$notific8-ns}-notification.ocho {
+  &.has-icon {
+    width: em(435px);
+
+    .#{$notific8-ns}-message-content {
+      padding-left: em(10px);
+    }
+  }
+
+  .#{$notific8-ns}-icon {
+    font-size: em(70px);
+    height: 1em;
+    margin-top: -1px;
+  }
+}
+
+.left .#{$notific8-ns}-notification.family-legacy,// deprecated
+.left .#{$notific8-ns}-notification.ocho {
+  &.has-icon {
+    flex-direction: row-reverse;
+    padding-right: 90px;
+  }
+
+  .#{$notific8-ns}-icon {
+    float: right;
+    margin-right: em(-81px, 70px);
+  }
+
+  .#{$notific8-ns}-message-content {
+    width: 100%;
+  }
+}
+
+.right .#{$notific8-ns}-notification.family-legacy,// deprecated
+.right .#{$notific8-ns}-notification.ocho {
+  &.has-icon {
+    padding-left: 90px;
+  }
+
+  .#{$notific8-ns}-icon {
+    float: left;
+    margin-left: em(-81px, 70px);
+  }
+}
